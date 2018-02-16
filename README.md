@@ -6,16 +6,18 @@
 
 ## Description: 
 
-- Frequently, we get questions about how the ACP Brevet Control calculator algorithm works. The calculation is not as straightforward as it might seem.
+Frequently, we get questions about how the ACP Brevet Control calculator algorithm works. The calculation is not as straightforward as it might seem.
 
 The table below gives the minimum and maximum speeds for ACP brevets.
 
-Control location (km)	Minimum Speed (km/hr)	Maximum Speed (km/hr)
-0 - 200	15	34
-200 - 400	15	32
-400 - 600	15	30
-600 - 1000	11.428	28
-1000 - 1300	13.333	26
+~~~
+ Control location (km)	Minimum Speed (km/hr)	Maximum Speed (km/hr)
+ 0 - 200	            15	                      34
+ 200 - 400	            15	                      32
+ 400 - 600	            15	                      30
+ 600 - 1000	            11.428	              28
+ 1000 - 1300	            13.333	              26
+~~~
 The calculation of a control's opening time is based on the maximum speed. Calculation of a control's closing time is based on the minimum speed.
 
 Distance, speed, and time calculation
