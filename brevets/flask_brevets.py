@@ -59,7 +59,6 @@ def _calc_times():
     time = time.shift(hours=+8)  # Change timezone
     app.logger.debug("km={}".format(km))
     app.logger.debug("request.args: {}".format(request.args))
-
     open_time = acp_times.open_time(km, distance, time)
     close_time = acp_times.close_time(km, distance, time)
     result = {"open": open_time, "close": close_time}
